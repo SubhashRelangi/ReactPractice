@@ -1,22 +1,22 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "My First Post",
-      "datetime": "July 01, 2021 11:17:36 AM",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio!"
-    },
-    {
-      "id": "2",
-      "title": "My 2nd Post",
-      "datetime": "July 01, 2021 11:17:36 AM",
-      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur expedita, assumenda similique non optio!"
-    },
-    {
       "id": "21",
       "title": "Subhash Relangi",
       "datetime": "April 30, 2025 12:06:02 PM",
       "body": "Hi my name is subhash i am a passionate web developer and also i have a strong intrest in movies"
+    },
+    {
+      "id": "211",
+      "title": "Relangi Seetha Ratnam",
+      "datetime": "May 01, 2025 9:51:22 AM",
+      "body": "She is my mother who dreamed for me to become a job holder in my family"
+    },
+    {
+      "id": "2111",
+      "title": "Relangi Srinivasa Rao",
+      "datetime": "May 01, 2025 10:56:43 AM",
+      "body": "He is my father who work hard for my family."
     }
   ]
 }
