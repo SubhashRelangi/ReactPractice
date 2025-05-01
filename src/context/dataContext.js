@@ -15,13 +15,13 @@ export const DataProvider = ({ children }) => {
         setPosts(data);
     }, [data])
 
-    useEffect(() => {
-        const filteredResults = posts.filter((post) =>
-            ((post.body).toLowerCase()).includes(search.toLowerCase())
-            || ((post.title).toLowerCase()).includes(search.toLowerCase()));
+        useEffect(() => {
+            const filteredResults = posts.filter((post) =>
+                ((post.body).toLowerCase()).includes(search.toLowerCase())
+                || ((post.title).toLowerCase()).includes(search.toLowerCase()));
 
-        setSearchResults(filteredResults.reverse());
-    }, [posts, search])
+            setSearchResults(filteredResults.reverse());
+        }, [posts, search])
 
 
     return (
